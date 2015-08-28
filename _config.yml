@@ -15,9 +15,9 @@ owner:
     name: Scott Nicholas
     twitter: neutronscott
     github: neutronscott
-    disqus_shortname: #
+    disqus_shortname: scottn
 
-ga_id: #
-ga_username: #
+ga_id: UA-34024204-2
+ga_username: auto
 
 timezone: America/New_York
