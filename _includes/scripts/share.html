@@ -7,9 +7,9 @@
             <i class="fa fa-retweet" style="color:red;"></i> Share
         </a>
     </p>
-    {% if site.related_posts %}
+    {% if site.related_posts.size > 0 %}
     <ul>
-        <li>You might also like:</li>
+        <li>You might also like these:</li>
         <ul>
         {% for post in site.related_posts limit:3 %}
             <li>
