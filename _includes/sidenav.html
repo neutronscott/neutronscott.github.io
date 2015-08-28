@@ -1,6 +1,6 @@
 <ul class="sidebar" >
 <!-- sort in alphebetical order -->
-    {% for page in site.pages %}
+    {% for page in site.pages | sort: 'prio' %}
     {% if page.isNavItem != nil %}
     <li><a href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></li>
     {% endif %}
