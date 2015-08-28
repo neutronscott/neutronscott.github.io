@@ -1,5 +1,5 @@
-name: Wangana
-description:  Jekyll theme
+name: Scott Nicholas
+description: personal page
 
 sass:
   sass_dir: assets/css/_sass
@@ -9,15 +9,15 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: http://nadjetey.github.io/wangana
+url: http://neutronscott.github.io
 permalink: /:year/:month/:title/
 owner:
-    name: #
-    twitter: #
-    github: #
+    name: Scott Nicholas
+    twitter: neutronscott
+    github: neutronscott
     disqus_shortname: #
 
 ga_id: #
 ga_username: #
 
-timezone: Africa/Accra
+timezone: America/New_York
